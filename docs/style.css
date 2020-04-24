@@ -1,0 +1,100 @@
+.syllabus {
+  border: 1px rgb(89, 49, 150);
+  border-left: 5px rgb(89, 49, 150);
+  border-style: hidden;
+  border-left-style: solid;
+  border-radius: 6px;
+  padding: 4px;
+  padding-top: 8px;
+  padding-left: 8px;
+  margin: 10px;
+  background: rgba(89, 49, 150, 0.1);
+}
+
+.definition {
+  border: 1px rgb(56, 180, 74);
+  border-left: 5px rgb(56, 180, 74);
+  border-style: hidden;
+  border-left-style: solid;
+  border-radius: 6px;
+  padding: 4px;
+  padding-top: 8px;
+  padding-left: 8px;
+  margin: 10px;
+  background: rgba(56, 180, 74, 0.1);
+}
+
+.rule {
+  border: 1px rgb(239, 183, 62);
+  border-left: 5px rgb(239, 183, 62);
+  border-style: hidden;
+  border-left-style: solid;
+  border-radius: 6px;
+  padding: 4px;
+  padding-top: 8px;
+  padding-left: 8px;
+  margin: 10px;
+  background: rgba(239, 183, 62, 0.1);
+}
+
+.important {
+  border: 1px rgb(221, 72, 30);
+  border-left: 5px rgb(221, 72, 30);
+  border-style: hidden;
+  border-left-style: solid;
+  border-radius: 6px;
+  padding: 4px;
+  padding-top: 8px;
+  padding-left: 8px;
+  margin: 10px;
+  background: rgba(221, 72, 30, 0.1);
+}
+
+.proof {
+  border: 1px rgb(23, 162, 184);
+  border-left: 5px rgb(23, 162, 184);
+  border-style: hidden;
+  border-left-style: solid;
+  border-radius: 6px;
+  padding: 4px;
+  padding-top: 8px;
+  padding-left: 8px;
+  margin: 10px;
+  background: rgba(23, 162, 184, 0.1);
+}
+
+.extension {
+  border: 1px rgb(223, 56, 44);
+  border-left: 5px rgb(223, 56, 44);
+  border-style: hidden;
+  border-left-style: solid;
+  border-radius: 6px;
+  padding: 4px;
+  padding-top: 8px;
+  padding-left: 8px;
+  margin: 10px;
+  background: rgba(223, 56, 44, 0.1);
+}
+
+.note {
+  border: 1px rgb(174, 167, 159);
+  border-left: 5px rgb(174, 167, 159);
+  border-style: hidden;
+  border-left-style: solid;
+  border-radius: 6px;
+  padding: 4px;
+  padding-top: 8px;
+  padding-left: 8px;
+  margin: 10px;
+  background: rgba(174, 167, 159, 0.1);
+}
+
+
+
+#nextsteps {
+   color: blue;
+}
+
+.emphasized {
+   font-size: 1.2em;
+}

@@ -1,0 +1,34 @@
+name: "claytonpollard"
+navbar:
+  title: "Standard"
+  left:
+    - text: "Algebra"
+      menu:
+        - text: "MS-A4 Types of Relationships"
+          menu:
+            - text: "MS-A4.2 Non-linear relationships"
+              href: MS-A4-2_Types_of_Relationships.html
+    - text: "Measurement"
+    - text: "Financial Mathematics"
+    - text: "Statistical Analysis"
+    - text: "Networks"
+    - text: "Additional Resources"
+      menu:
+        - text: "Year 11 Standard"
+          href: https://claytonpollard.github.io/11standard_additional.html
+        - text: "Year 12 Standard 1"
+          href: https://claytonpollard.github.io/12standard1_additional.html
+        - text: "Year 12 Standard 2"
+          href: https://claytonpollard.github.io/12standard2_additional.html
+  right:
+    - text: "Home"
+      href: https://claytonpollard.github.io/index.html
+output_dir: "docs"
+output:
+  html_document:
+    theme: united
+    highlight: textmate
+    include:
+      before_body: header.html
+      after_body: footer.html
+    css: style.css
