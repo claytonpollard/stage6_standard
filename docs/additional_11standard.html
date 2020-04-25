@@ -11,7 +11,7 @@
 
 
 
-<title>MS-S5 The Normal Distribution</title>
+<title>Year 11 Standard</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -19,14 +19,26 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
+  pre {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: .5rem;
+  }
   pre:not([class]) {
     background-color: white;
+  }
+  pre code {
+    background-color: transparent;
   }
 </style>
 <script type="text/javascript">
@@ -63,6 +75,7 @@ h5 {
 h6 {
   font-size: 12px;
 }
+
 .table th:not([align]) {
   text-align: left;
 }
@@ -101,6 +114,7 @@ summary {
 
 
 <style type="text/css">
+/* TODO: remove this padding CSS when we drop BS3 */
 /* padding for bootstrap navbar */
 body {
   padding-top: 51px;
@@ -131,6 +145,7 @@ body {
   padding-top: 56px;
   margin-top: -56px;
 }
+
 .dropdown-submenu {
   position: relative;
 }
@@ -181,27 +196,29 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
 });
 </script>
 
-<!-- tabsets -->
-
+<!--
+  Note that .tabset-dropdown was initially implemented using Glyphicons, which were dropped
+  in BS4. The idea behind the "equivalent" BS4 CSS derives from how carets are implemented
+  https://github.com/twbs/bootstrap/blob/099860/scss/mixins/_caret.scss#L1
+-->
 <style type="text/css">
 .tabset-dropdown > .nav-tabs {
   display: inline-table;
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
+.tabset-dropdown > .nav-tabs > li.active-dropdown-tab:before {
   content: "";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
@@ -209,7 +226,7 @@ $(document).ready(function () {
   border-right: 1px solid #ddd;
 }
 
-.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active-dropdown-tab:before {
   content: "&#xe258;";
   border: none;
 }
@@ -222,7 +239,7 @@ $(document).ready(function () {
   border-right: 1px solid #ddd;
 }
 
-.tabset-dropdown > .nav-tabs > li.active {
+.tabset-dropdown > .nav-tabs > li.active-dropdown-tab {
   display: block;
 }
 
@@ -249,6 +266,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -256,6 +336,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-sm-12 col-md-8 col-lg-9">
 
 
 
@@ -283,7 +373,7 @@ $(document).ready(function () {
       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">MS-A4 Types of Relationships</a>
       <ul class="dropdown-menu" role="menu">
         <li>
-          <a href="MS-A4-2_Types_of_Relationships.html">MS-A4.2 Non-linear relationships</a>
+          <a href="ms-a4-2_non-linear-relationships.html">MS-A4.2 Non-linear relationships</a>
         </li>
       </ul>
     </li>
@@ -301,13 +391,13 @@ $(document).ready(function () {
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="https://claytonpollard.github.io/11standard_additional.html">Year 11 Standard</a>
+      <a href="additional_11standard.html">Year 11 Standard</a>
     </li>
     <li>
-      <a href="https://claytonpollard.github.io/12standard1_additional.html">Year 12 Standard 1</a>
+      <a href="additional_12standard1.html">Year 12 Standard 1</a>
     </li>
     <li>
-      <a href="https://claytonpollard.github.io/12standard2_additional.html">Year 12 Standard 2</a>
+      <a href="additional_12standard2.html">Year 12 Standard 2</a>
     </li>
   </ul>
 </li>
@@ -322,71 +412,22 @@ $(document).ready(function () {
 </div><!--/.navbar -->
 <script src="https://cdn.geogebra.org/apps/deployggb.js"></script>
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
-<h1 class="title toc-ignore">MS-S5 The Normal Distribution</h1>
+<h1 class="title toc-ignore">Year 11 Standard</h1>
+<h3 class="subtitle">Additional Resources</h3>
 
-</div>
-
-
-<div id="syllabus" class="section level1 tabset tabset-fade tabset-pills">
-<h1><a href="https://syllabus.nesa.nsw.edu.au/assets/mathematics_standard/mathematics-standard-stage-6-syllabus-2017.pdf">Syllabus</a></h1>
-<div id="show" class="section level2">
-<h2>Show</h2>
-<div class="syllabus">
-<p>Students:</p>
-<ul>
-<li>recognise a random variable that is normally distributed, justifying their reasoning, and draw an appropriate ‘bell-shaped’ frequency distribution curve to represent it
-<ul>
-<li>identify that the mean and median are approximately equal for data arising from a random variable that is normally distributed</li>
-</ul></li>
-<li>calculate the <span class="math inline">\(z\)</span>-score (standardised score) corresponding to a particular value in a dataset
-<ul>
-<li>use the formula <span class="math inline">\(z=\frac{x-\bar{x}}{s}\)</span>, where <span class="math inline">\(\bar{x}\)</span> is the mean and <span class="math inline">\(s\)</span> is the standard deviation</li>
-<li>describe the <span class="math inline">\(z\)</span>-score as the number of standard deviations a value lies above or below the mean</li>
-<li>recognise that the set of <span class="math inline">\(z\)</span>-scores for data arising from a random variable that is normally distributed has a mean of 0 and standard deviation of 1</li>
-</ul></li>
-<li>use calculated <span class="math inline">\(z\)</span>-scores to compare scores from different datasets, for example comparingnstudents’ subject examination scores</li>
-<li>use collected data to illustrate that, for normally distributed random variables, approximately 68% of data will have <span class="math inline">\(z\)</span>-scores between -1 and 1, approximately 95% of data will have$ <span class="math inline">\(z\)</span>-scores between -2 and 2 and approximately 99.7% of data will have <span class="math inline">\(z\)</span>-scores between -3 and 3 (known as the empirical rule)
-<ul>
-<li>apply the empirical rule to a variety of problems</li>
-<li>indicate by shading where results sit within the normal distribution, eg where the top 10% of data lies</li>
-</ul></li>
-<li>use <span class="math inline">\(z\)</span>-scores to identify probabilities of events less or more extreme than a given event</li>
-<li>use <span class="math inline">\(z\)</span>-scores to make judgements related to outcomes of a given event or sets of data</li>
-</ul>
-</div>
-</div>
-<div id="hide" class="section level2">
-<h2>Hide</h2>
-</div>
-</div>
-<div id="section" class="section level1 tabset tabset-fade tabset-pills">
-<h1></h1>
-<div id="normal-distributions" class="section level2">
-<h2>Normal distributions</h2>
-</div>
-<div id="properties" class="section level2">
-<h2>Properties</h2>
-</div>
-<div id="z-scores" class="section level2">
-<h2><span class="math inline">\(z\)</span>-scores</h2>
-</div>
-<div id="converting-scrores" class="section level2">
-<h2>Converting scrores</h2>
-</div>
-<div id="comparing-datasets" class="section level2">
-<h2>Comparing datasets</h2>
-</div>
-<div id="applications" class="section level2">
-<h2>Applications</h2>
-</div>
 </div>
 
 
 
+
+
+
+</div>
+</div>
 
 </div>
 
@@ -412,13 +453,41 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
+    $(this).siblings().removeClass("active-dropdown-tab");
+    $(this).addClass("active-dropdown-tab");
   });
 });
 </script>
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

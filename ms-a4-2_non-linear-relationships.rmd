@@ -1,0 +1,62 @@
+---
+title: "MS-4.2 Types of Relationships"
+output:
+  html_document:
+    code_folding: "hide"
+---
+
+# [Syllabus](https://syllabus.nesa.nsw.edu.au/assets/mathematics_standard/mathematics-standard-stage-6-syllabus-2017.pdf) {.tabset .tabset-fade .tabset-pills}
+
+## Show
+
+::: {.syllabus}
+
+Students:
+
+* use an exponential model to solve problems
+  + graph and recognise an exponential function in the form $y=a^x$ and $y=a^{-x} (a>0)$ using technology
+  + interpret the meaning of the intercepts of an exponential graph in a variety of contexts
+  + construct and analyse an exponential model to solve a practical growth or decay problem
+* construct and analyse a quadratic model to solve practical problems involving quadratic functions of expressions of the form $y=ax^2+bx+c$, for example, braking distance against speed
+  + recognise the shape of a parabola and that it always has a turning point and an axis of symmetry
+  + graph a quadratic function using technology
+  + interpret the turning point and intercepts of a parabola in a practical context
+  + consider the range of values for $x$ and $y$ for which the quadratic model makes sense in ap ractical context
+* recognise that reciprocal functions of the form $y=\frac{k}{x}$, where $k$ is a constant, represent inverse variation, identify the rectangular hyperbolic shape of these graphs and their important features
+  + use a reciprocal model to solve practical inverse variation problems algebraically and graphically, eg the amount of pizza received when sharing a pizza between increasing numbers of people
+:::
+
+
+## Hide
+
+#  {.tabset .tabset-fade .tabset-pills}
+
+## Exponentials {.tabset .tabset-fade .tabset-pills}
+
+### Functions
+
+```{r}
+library("ggplot2")
+eq = function(x){2^x}
+ggplot(data.frame(x=c(-3, 3)), aes(x=x)) + 
+  stat_function(fun=eq)
+```
+
+### Modelling
+
+## Quadratics {.tabset .tabset-fade .tabset-pills}
+
+### Functions
+
+### Modelling
+
+## Reciprocals {.tabset .tabset-fade .tabset-pills}
+
+### Functions
+
+### Modelling
+
+## Inverse variation
+
+## Miscellaneous problems
+

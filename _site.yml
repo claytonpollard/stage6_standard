@@ -7,7 +7,7 @@ navbar:
         - text: "MS-A4 Types of Relationships"
           menu:
             - text: "MS-A4.2 Non-linear relationships"
-              href: MS-A4-2_Types_of_Relationships.html
+              href: ms-a4-2_non-linear-relationships.html
     - text: "Measurement"
     - text: "Financial Mathematics"
     - text: "Statistical Analysis"
@@ -15,11 +15,11 @@ navbar:
     - text: "Additional Resources"
       menu:
         - text: "Year 11 Standard"
-          href: https://claytonpollard.github.io/11standard_additional.html
+          href: additional_11standard.html
         - text: "Year 12 Standard 1"
-          href: https://claytonpollard.github.io/12standard1_additional.html
+          href: additional_12standard1.html
         - text: "Year 12 Standard 2"
-          href: https://claytonpollard.github.io/12standard2_additional.html
+          href: additional_12standard2.html
   right:
     - text: "Home"
       href: https://claytonpollard.github.io/index.html
