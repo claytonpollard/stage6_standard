@@ -2,10 +2,13 @@
 title: "MS-4.2 Types of Relationships"
 output:
   html_document:
-    code_folding: "hide"
+    toc: true
+    toc_float: true
 ---
 
 # [Syllabus](https://syllabus.nesa.nsw.edu.au/assets/mathematics_standard/mathematics-standard-stage-6-syllabus-2017.pdf) {.tabset .tabset-fade .tabset-pills}
+
+## Hide
 
 ## Show
 
@@ -14,49 +17,132 @@ output:
 Students:
 
 * use an exponential model to solve problems
-  + graph and recognise an exponential function in the form $y=a^x$ and $y=a^{-x} (a>0)$ using technology
+  + graph and recognise an exponential function in the form $y=a^x$ and $y=a^{-x} (a>0)$ with and without technology
   + interpret the meaning of the intercepts of an exponential graph in a variety of contexts
-  + construct and analyse an exponential model to solve a practical growth or decay problem
-* construct and analyse a quadratic model to solve practical problems involving quadratic functions of expressions of the form $y=ax^2+bx+c$, for example, braking distance against speed
+  + construct and analyse an exponential model of the form $y=ka^x$ and $y=ka^{-x} (a>0)$ where $k$ is a constant, to solve a practical growth or decay problem
+* construct and analyse a quadratic model to solve practical problems involving quadratic functions or expressions of the form $y=ax^2+bx+c$, for example, braking distance against speed
   + recognise the shape of a parabola and that it always has a turning point and an axis of symmetry
   + graph a quadratic function using technology
   + interpret the turning point and intercepts of a parabola in a practical context
-  + consider the range of values for $x$ and $y$ for which the quadratic model makes sense in ap ractical context
+  + consider the range of values for $x$ and $y$ for which the quadratic model makes sense in a practical context
 * recognise that reciprocal functions of the form $y=\frac{k}{x}$, where $k$ is a constant, represent inverse variation, identify the rectangular hyperbolic shape of these graphs and their important features
   + use a reciprocal model to solve practical inverse variation problems algebraically and graphically, eg the amount of pizza received when sharing a pizza between increasing numbers of people
 :::
 
+# Exponential Functions [![](pres.png)](https://claytonpollard.github.io/stage6_standard_presentations/MS-A4.2_a_exponential-functions.html){target="blank"} {.tabset .tabset-fade .tabset-pills}
 
 ## Hide
 
-#  {.tabset .tabset-fade .tabset-pills}
+## Show 
 
-## Exponentials {.tabset .tabset-fade .tabset-pills}
+### Introduction
 
-### Functions
+::: {.definition}
+Exponential functions are functions that have the $x$ as the power of the constant.
 
-```{r}
-library("ggplot2")
-eq = function(x){2^x}
-ggplot(data.frame(x=c(-3, 3)), aes(x=x)) + 
-  stat_function(fun=eq)
-```
+i.e. $$y=ka^x$$ Where $a$ and $k$ are constants.
+:::
 
-### Modelling
+For example, $$y=3\times2^x$$
 
-## Quadratics {.tabset .tabset-fade .tabset-pills}
+::: {.note}
+Note that the index operation happens before the mulitplication so $y=3\times2^x\neq6^x$
+:::
 
-### Functions
+### Graphs - Still sorting it out {.tabset .tabset-fade .tabset-pills}
 
-### Modelling
+#### $y=2^x$
 
-## Reciprocals {.tabset .tabset-fade .tabset-pills}
+#### $y=a^x$
 
-### Functions
+#### $y=a^{-x}$
 
-### Modelling
+#### $y=a^x$ and $y=a^{-x}$
 
-## Inverse variation
+#### $y=ka^x$
 
-## Miscellaneous problems
+### Observations
 
+* The graph is above the $x$-axis.
+  + $y$ can never be 0 or negative, unless $k<0$.
+* The graph always passes through the point $(0, k)$. $(k\times a^0=k\times1=k)$
+* Increasing the value of $a$ increases the steepness of the curve.
+* Increasing the value of $x$ by 1 magnifies the value of $y$ by a factor of $a$
+* The $x$-axis is an _asymptote_.
+  + The curve never touches the $x$-axis.
+* $a^x$ and $a^{-x}$ are reflections in the $y$-axis.
+* $y=a^{-x}$ has the same graph as $y=\left(\dfrac{1}{a}\right)^x$
+* $k$ stretches the graph vertically.
+
+### Sketching
+
+When sketching exponential graphs:
+
+1. Construct a table of values
+2. Draw a number plane
+3. Plot at least 4 points
+4. Draw a curve that goes through the points
+
+### Examples {.tabset .tabset-fade .tabset-pills}
+
+#### Example 1 {.tabset .tabset-fade .tabset-pills}
+
+##### Question
+
+Draw the graph of $y=3^x$
+
+##### Show Solution
+
+Embed
+
+#### Example 2 {.tabset .tabset-fade .tabset-pills}
+
+##### Question
+
+Draw the graph of $y=3^{-x}$
+
+##### Show Solution
+
+Embed
+
+# Exponential Models [![](pres.png)](https://claytonpollard.github.io/stage6_standard_presentations/MS-A4.2_b_exponential-models.html){target="blank"} {.tabset .tabset-fade .tabset-pills}
+
+## Hide
+
+## Show
+
+# Quadratic Functions [![](pres.png)](https://claytonpollard.github.io/stage6_standard_presentations/MS-A4.2_c_quadratic-functions.html){target="blank"} {.tabset .tabset-fade .tabset-pills}
+
+## Hide
+
+## Show
+
+# Quadratic Models [![](pres.png)](https://claytonpollard.github.io/stage6_standard_presentations/MS-A4.2_d_quadratic-models.html){target="blank"} {.tabset .tabset-fade .tabset-pills}
+
+## Hide
+
+## Show
+
+# Reciprocal Functions [![](pres.png)](https://claytonpollard.github.io/stage6_standard_presentations/MS-A4.2_e_reciprocal-functions.html){target="blank"} {.tabset .tabset-fade .tabset-pills}
+
+## Hide
+
+## Show
+
+# Reciprocal Models [![](pres.png)](https://claytonpollard.github.io/stage6_standard_presentations/MS-A4.2_f_reciprocal-models.html){target="blank"} {.tabset .tabset-fade .tabset-pills}
+
+## Hide
+
+## Show
+
+# Inverse Variation [![](pres.png)](https://claytonpollard.github.io/stage6_standard_presentations/MS-A4.2_g_inverse-variation.html){target="blank"} {.tabset .tabset-fade .tabset-pills}
+
+## Hide
+
+## Show
+
+# Miscellaneous Problems [![](pres.png)](https://claytonpollard.github.io/stage6_standard_presentations/MS-A4.2_h_miscellaneous-problems.html){target="blank"} {.tabset .tabset-fade .tabset-pills}
+
+## Hide
+
+## Show
