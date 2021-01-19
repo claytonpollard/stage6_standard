@@ -1,0 +1,129 @@
+---
+title: "MS-A1 Formulae and Equations"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# [Syllabus](https://syllabus.nesa.nsw.edu.au/assets/mathematics_standard/mathematics-standard-stage-6-syllabus-2017.pdf) {.tabset .tabset-fade .tabset-pills}
+
+## Hide
+
+## Show
+
+::: {.syllabus}
+
+Students:
+
+* review substitution of numerical values into linear and non-linear algebraic expressions and equations
+  + review evaluating the subject of a formula, given the value of other pronumerals in the formula
+  + change the subject of a formula
+  + solve problems involving formulae, including calculating distance, speed and time (with change of units of measurement as required) or calculating stopping distances of vehicles using a suitable formula
+* develop and solve linear equations, including those derived from substituting values into a formula, or those developed from a word description
+* calculate and interpret blood alcohol content (BAC) based on drink consumption and body weight
+  + use formulae, both in word form and algebraic form, to calculate an estimate for blood alcohol content $(BAC)$, including $BAC_{Male}=\frac{10N-7.5H}{6.8M}$ and $BAC_{Female}=\frac{10N-7.5H}{5.5M}$ where $N$ is the number of standard drinks consumed, $H$ is the number of hours of drinking, and $M$ is the person's weight in kilograms.
+  + determine the number of hours required for a person to stop consuming alcohol in order to reach zero BAC, eg using the formula $time=\frac{BAC}{0.015}$
+  + describe the limitations of methods estimating BAC
+* calculate required medication dosages for children and adults from packets, given age or weight, using Fried’s, Young’s or Clark’s formula as appropriate
+  + Fried's formula: Dosage for children 1-2 years $=\frac{\text{age (in months)}\ \times\ \text{adult dosage}}{150}$
+  + Young's formula: Dosage for children 1-12 years $=\frac{\text{age of child (in years)}\ \times\ \text{adult dosage}}{\text{age od child (in years)}\ +\ 150}$
+  + Clark's formula: Dosage $=\frac{\text{weight in kg}\ \times\ \text{adult dosage}}{70}$
+:::
+
+# Substitution [![](pres.png)](https://claytonpollard.github.io/stage6_standard_presentations/MS-A1/a_substitution.pdf){target="blank"} {.tabset .tabset-fade .tabset-pills}
+
+## Hide
+
+## Show 
+
+::: {.syllabus}
+
+**Syllabus**
+
+* review substitution of numerical values into linear and non-linear algebraic expressions and equaitons
+
+:::
+
+### Why algebra?
+
+**Algebra** is used Mathematicians to communicate mathematical ideas in a convenient way. **Variables** (letters and symbols) are used to represent unknown quantities whose value can change depending on the situation.
+
+### Expressions
+
+We can think of expressions as number crunching machines. Numbers are put in and then a related number is produced.
+
+For example the expression $a^2+1$ starts with an input $a$, squares it and adds 1.
+
+If the number -5 is fed into the machine, the machine **substitutes** the number 5 in place of a and then **evaluates** the result:
+
+$$\begin{aligned}&a^2+1\\=\ &(\color{red}{-5})^2+1\\=\ &25+1\\ =\ &26\end{aligned}$$
+
+::: {.important}
+
+**Important Note**
+
+To avoid making mistakes it is good practice to **always** substitute into brackets.
+
+:::
+
+### Examples {.tabset .tabset-fade .tabset-pills}
+
+#### Example 1 {.tabset .tabset-fade .tabset-pills}
+
+##### Question
+
+::: {.example}
+
+Evaluate the following, given $x=4$
+
+a) $\quad2x-3$
+b) $\quad\sqrt{6x+12}$
+
+:::
+
+##### Show Solution (a)
+
+Evaluate the following, given $x=4$
+
+a) $\quad2x-3$
+b) $\quad\sqrt{6x+12}$
+
+::: {.solution}
+
+$\begin{aligned}&2x-3\\=\ &2(\color{red}{4})-3\\=\ &8-3\\=\ &5\end{aligned}$
+
+:::
+
+##### Show Solution (b)
+
+Evaluate the following, given $x=4$
+
+a) $\quad2x-3$
+b) $\quad\sqrt{6x+12}$
+
+::: {.solution}
+
+$\begin{aligned}&\sqrt{6x+12}\\=\ &\sqrt{6(\color{red}{4})+12}\\=\ &\sqrt{24+12}\\=\ &\sqrt{36}\\=\ &6\end{aligned}$
+
+:::
+
+#### Example 2 {.tabset .tabset-fade .tabset-pills}
+
+##### Question
+
+::: {.example}
+
+Evaluate $\quad a^2-5b+c\quad$ given $a=3$, $b=-3$, $c=7$
+
+:::
+
+##### Show Solution
+
+Evaluate $\quad a^2-5b+c\quad$ given $a=3$, $b=-3$, $c=7$
+
+::: {.solution}
+
+$\begin{aligned}&a^2-5b+c\\=\ &(\color{red}{3})^2-5(\color{red}{-3})+(\color{red}{7})\\=\ &9+15+7\\=\ &31\end{aligned}$
+
+:::

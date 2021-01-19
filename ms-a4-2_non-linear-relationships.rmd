@@ -29,7 +29,7 @@ Students:
   + use a reciprocal model to solve practical inverse variation problems algebraically and graphically, eg the amount of pizza received when sharing a pizza between increasing numbers of people
 :::
 
-# Exponential Functions [![](pres.png)](https://claytonpollard.github.io/stage6_standard_presentations/MS-A4.2_a_exponential-functions.html){target="blank"} {.tabset .tabset-fade .tabset-pills}
+# Exponential Functions [![](pres.png)](https://claytonpollard.github.io/stage6_standard_presentations/MS-A4.2/a_exponential-functions.html){target="blank"} {.tabset .tabset-fade .tabset-pills}
 
 ## Hide
 
@@ -105,44 +105,10 @@ Draw the graph of $y=3^{-x}$
 
 Embed
 
-# Exponential Models [![](pres.png)](https://claytonpollard.github.io/stage6_standard_presentations/MS-A4.2_b_exponential-models.html){target="blank"} {.tabset .tabset-fade .tabset-pills}
+# Exponential Models [![](pres.png)](https://claytonpollard.github.io/stage6_standard_presentations/MS-A4.2/b_exponential-models.html){target="blank"} {.tabset .tabset-fade .tabset-pills}
 
 ## Hide
 
-## Show
-
-# Quadratic Functions [![](pres.png)](https://claytonpollard.github.io/stage6_standard_presentations/MS-A4.2_c_quadratic-functions.html){target="blank"} {.tabset .tabset-fade .tabset-pills}
+# Quadratic Functions [![](pres.png)](https://claytonpollard.github.io/stage6_standard_presentations/MS-A4.2/c_quadratic-functions.html){target="blank"} {.tabset .tabset-fade .tabset-pills}
 
 ## Hide
-
-## Show
-
-# Quadratic Models [![](pres.png)](https://claytonpollard.github.io/stage6_standard_presentations/MS-A4.2_d_quadratic-models.html){target="blank"} {.tabset .tabset-fade .tabset-pills}
-
-## Hide
-
-## Show
-
-# Reciprocal Functions [![](pres.png)](https://claytonpollard.github.io/stage6_standard_presentations/MS-A4.2_e_reciprocal-functions.html){target="blank"} {.tabset .tabset-fade .tabset-pills}
-
-## Hide
-
-## Show
-
-# Reciprocal Models [![](pres.png)](https://claytonpollard.github.io/stage6_standard_presentations/MS-A4.2_f_reciprocal-models.html){target="blank"} {.tabset .tabset-fade .tabset-pills}
-
-## Hide
-
-## Show
-
-# Inverse Variation [![](pres.png)](https://claytonpollard.github.io/stage6_standard_presentations/MS-A4.2_g_inverse-variation.html){target="blank"} {.tabset .tabset-fade .tabset-pills}
-
-## Hide
-
-## Show
-
-# Miscellaneous Problems [![](pres.png)](https://claytonpollard.github.io/stage6_standard_presentations/MS-A4.2_h_miscellaneous-problems.html){target="blank"} {.tabset .tabset-fade .tabset-pills}
-
-## Hide
-
-## Show

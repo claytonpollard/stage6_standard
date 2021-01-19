@@ -4,6 +4,8 @@ navbar:
   left:
     - text: "Algebra"
       menu:
+        - text: "MS-A1 Formulae and Equations"
+          href: ms-a1_formulae-and-equations.html
         - text: "MS-A4 Types of Relationships"
           menu:
             - text: "MS-A4.2 Non-linear relationships"
@@ -12,14 +14,6 @@ navbar:
     - text: "Financial Mathematics"
     - text: "Statistical Analysis"
     - text: "Networks"
-    - text: "Additional Resources"
-      menu:
-        - text: "Year 11 Standard"
-          href: additional_11standard.html
-        - text: "Year 12 Standard 1"
-          href: additional_12standard1.html
-        - text: "Year 12 Standard 2"
-          href: additional_12standard2.html
   right:
     - text: "Home"
       href: https://claytonpollard.github.io/index.html

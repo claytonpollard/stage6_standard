@@ -11,7 +11,7 @@
 
 
 
-<title>MS-4.2 Types of Relationships</title>
+<title>MS-A1 Formulae and Equations</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -401,7 +401,7 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">MS-4.2 Types of Relationships</h1>
+<h1 class="title toc-ignore">MS-A1 Formulae and Equations</h1>
 
 </div>
 
@@ -416,91 +416,56 @@ div.tocify {
 <div class="syllabus">
 <p>Students:</p>
 <ul>
-<li>use an exponential model to solve problems
+<li>review substitution of numerical values into linear and non-linear algebraic expressions and equations
 <ul>
-<li>graph and recognise an exponential function in the form <span class="math inline">\(y=a^x\)</span> and <span class="math inline">\(y=a^{-x} (a&gt;0)\)</span> with and without technology</li>
-<li>interpret the meaning of the intercepts of an exponential graph in a variety of contexts</li>
-<li>construct and analyse an exponential model of the form <span class="math inline">\(y=ka^x\)</span> and <span class="math inline">\(y=ka^{-x} (a&gt;0)\)</span> where <span class="math inline">\(k\)</span> is a constant, to solve a practical growth or decay problem</li>
+<li>review evaluating the subject of a formula, given the value of other pronumerals in the formula</li>
+<li>change the subject of a formula</li>
+<li>solve problems involving formulae, including calculating distance, speed and time (with change of units of measurement as required) or calculating stopping distances of vehicles using a suitable formula</li>
 </ul></li>
-<li>construct and analyse a quadratic model to solve practical problems involving quadratic functions or expressions of the form <span class="math inline">\(y=ax^2+bx+c\)</span>, for example, braking distance against speed
+<li>develop and solve linear equations, including those derived from substituting values into a formula, or those developed from a word description</li>
+<li>calculate and interpret blood alcohol content (BAC) based on drink consumption and body weight
 <ul>
-<li>recognise the shape of a parabola and that it always has a turning point and an axis of symmetry</li>
-<li>graph a quadratic function using technology</li>
-<li>interpret the turning point and intercepts of a parabola in a practical context</li>
-<li>consider the range of values for <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span> for which the quadratic model makes sense in a practical context</li>
+<li>use formulae, both in word form and algebraic form, to calculate an estimate for blood alcohol content <span class="math inline">\((BAC)\)</span>, including <span class="math inline">\(BAC_{Male}=\frac{10N-7.5H}{6.8M}\)</span> and <span class="math inline">\(BAC_{Female}=\frac{10N-7.5H}{5.5M}\)</span> where <span class="math inline">\(N\)</span> is the number of standard drinks consumed, <span class="math inline">\(H\)</span> is the number of hours of drinking, and <span class="math inline">\(M\)</span> is the person’s weight in kilograms.</li>
+<li>determine the number of hours required for a person to stop consuming alcohol in order to reach zero BAC, eg using the formula <span class="math inline">\(time=\frac{BAC}{0.015}\)</span></li>
+<li>describe the limitations of methods estimating BAC</li>
 </ul></li>
-<li>recognise that reciprocal functions of the form <span class="math inline">\(y=\frac{k}{x}\)</span>, where <span class="math inline">\(k\)</span> is a constant, represent inverse variation, identify the rectangular hyperbolic shape of these graphs and their important features
+<li>calculate required medication dosages for children and adults from packets, given age or weight, using Fried’s, Young’s or Clark’s formula as appropriate
 <ul>
-<li>use a reciprocal model to solve practical inverse variation problems algebraically and graphically, eg the amount of pizza received when sharing a pizza between increasing numbers of people</li>
+<li>Fried’s formula: Dosage for children 1-2 years <span class="math inline">\(=\frac{\text{age (in months)}\ \times\ \text{adult dosage}}{150}\)</span></li>
+<li>Young’s formula: Dosage for children 1-12 years <span class="math inline">\(=\frac{\text{age of child (in years)}\ \times\ \text{adult dosage}}{\text{age od child (in years)}\ +\ 150}\)</span></li>
+<li>Clark’s formula: Dosage <span class="math inline">\(=\frac{\text{weight in kg}\ \times\ \text{adult dosage}}{70}\)</span></li>
 </ul></li>
 </ul>
 </div>
 </div>
 </div>
-<div id="exponential-functions" class="section level1 tabset tabset-fade tabset-pills">
-<h1>Exponential Functions <a href="https://claytonpollard.github.io/stage6_standard_presentations/MS-A4.2/a_exponential-functions.html" target="blank"><img src="pres.png" /></a></h1>
+<div id="substitution" class="section level1 tabset tabset-fade tabset-pills">
+<h1>Substitution <a href="https://claytonpollard.github.io/stage6_standard_presentations/MS-A1/a_substitution.pdf" target="blank"><img src="pres.png" /></a></h1>
 <div id="hide-1" class="section level2">
 <h2>Hide</h2>
 </div>
 <div id="show-1" class="section level2">
 <h2>Show</h2>
-<div id="introduction" class="section level3">
-<h3>Introduction</h3>
-<div class="definition">
-<p>Exponential functions are functions that have the <span class="math inline">\(x\)</span> as the power of the constant.</p>
-<p>i.e. <span class="math display">\[y=ka^x\]</span> Where <span class="math inline">\(a\)</span> and <span class="math inline">\(k\)</span> are constants.</p>
-</div>
-<p>For example, <span class="math display">\[y=3\times2^x\]</span></p>
-<div class="note">
-<p>Note that the index operation happens before the mulitplication so <span class="math inline">\(y=3\times2^x\neq6^x\)</span></p>
-</div>
-</div>
-<div id="graphs---still-sorting-it-out" class="section level3 tabset tabset-fade tabset-pills">
-<h3>Graphs - Still sorting it out</h3>
-<div id="y2x" class="section level4">
-<h4><span class="math inline">\(y=2^x\)</span></h4>
-</div>
-<div id="yax" class="section level4">
-<h4><span class="math inline">\(y=a^x\)</span></h4>
-</div>
-<div id="ya-x" class="section level4">
-<h4><span class="math inline">\(y=a^{-x}\)</span></h4>
-</div>
-<div id="yax-and-ya-x" class="section level4">
-<h4><span class="math inline">\(y=a^x\)</span> and <span class="math inline">\(y=a^{-x}\)</span></h4>
-</div>
-<div id="ykax" class="section level4">
-<h4><span class="math inline">\(y=ka^x\)</span></h4>
-</div>
-</div>
-<div id="observations" class="section level3">
-<h3>Observations</h3>
+<div class="syllabus">
+<p><strong>Syllabus</strong></p>
 <ul>
-<li>The graph is above the <span class="math inline">\(x\)</span>-axis.
-<ul>
-<li><span class="math inline">\(y\)</span> can never be 0 or negative, unless <span class="math inline">\(k&lt;0\)</span>.</li>
-</ul></li>
-<li>The graph always passes through the point <span class="math inline">\((0, k)\)</span>. <span class="math inline">\((k\times a^0=k\times1=k)\)</span></li>
-<li>Increasing the value of <span class="math inline">\(a\)</span> increases the steepness of the curve.</li>
-<li>Increasing the value of <span class="math inline">\(x\)</span> by 1 magnifies the value of <span class="math inline">\(y\)</span> by a factor of <span class="math inline">\(a\)</span></li>
-<li>The <span class="math inline">\(x\)</span>-axis is an <em>asymptote</em>.
-<ul>
-<li>The curve never touches the <span class="math inline">\(x\)</span>-axis.</li>
-</ul></li>
-<li><span class="math inline">\(a^x\)</span> and <span class="math inline">\(a^{-x}\)</span> are reflections in the <span class="math inline">\(y\)</span>-axis.</li>
-<li><span class="math inline">\(y=a^{-x}\)</span> has the same graph as <span class="math inline">\(y=\left(\dfrac{1}{a}\right)^x\)</span></li>
-<li><span class="math inline">\(k\)</span> stretches the graph vertically.</li>
+<li>review substitution of numerical values into linear and non-linear algebraic expressions and equaitons</li>
 </ul>
 </div>
-<div id="sketching" class="section level3">
-<h3>Sketching</h3>
-<p>When sketching exponential graphs:</p>
-<ol style="list-style-type: decimal">
-<li>Construct a table of values</li>
-<li>Draw a number plane</li>
-<li>Plot at least 4 points</li>
-<li>Draw a curve that goes through the points</li>
-</ol>
+<div id="why-algebra" class="section level3">
+<h3>Why algebra?</h3>
+<p><strong>Algebra</strong> is used Mathematicians to communicate mathematical ideas in a convenient way. <strong>Variables</strong> (letters and symbols) are used to represent unknown quantities whose value can change depending on the situation.</p>
+</div>
+<div id="expressions" class="section level3">
+<h3>Expressions</h3>
+<p>We can think of expressions as number crunching machines. Numbers are put in and then a related number is produced.</p>
+<p>For example the expression <span class="math inline">\(a^2+1\)</span> starts with an input <span class="math inline">\(a\)</span>, squares it and adds 1.</p>
+<p>If the number -5 is fed into the machine, the machine <strong>substitutes</strong> the number 5 in place of a and then <strong>evaluates</strong> the result:</p>
+<p><span class="math display">\[\begin{aligned}&amp;a^2+1\\=\ &amp;(\color{red}{-5})^2+1\\=\ &amp;25+1\\ =\ &amp;26\end{aligned}\]</span></p>
+<div class="important">
+<p><strong>Important Note</strong></p>
+<p>To avoid making mistakes it is good practice to <strong>always</strong> substitute into brackets.</p>
+</div>
 </div>
 <div id="examples" class="section level3 tabset tabset-fade tabset-pills">
 <h3>Examples</h3>
@@ -508,37 +473,54 @@ div.tocify {
 <h4>Example 1</h4>
 <div id="question" class="section level5">
 <h5>Question</h5>
-<p>Draw the graph of <span class="math inline">\(y=3^x\)</span></p>
+<div class="example">
+<p>Evaluate the following, given <span class="math inline">\(x=4\)</span></p>
+<ol style="list-style-type: lower-alpha">
+<li><span class="math inline">\(\quad2x-3\)</span></li>
+<li><span class="math inline">\(\quad\sqrt{6x+12}\)</span></li>
+</ol>
 </div>
-<div id="show-solution" class="section level5">
-<h5>Show Solution</h5>
-<p>Embed</p>
+</div>
+<div id="show-solution-a" class="section level5">
+<h5>Show Solution (a)</h5>
+<p>Evaluate the following, given <span class="math inline">\(x=4\)</span></p>
+<ol style="list-style-type: lower-alpha">
+<li><span class="math inline">\(\quad2x-3\)</span></li>
+<li><span class="math inline">\(\quad\sqrt{6x+12}\)</span></li>
+</ol>
+<div class="solution">
+<p><span class="math inline">\(\begin{aligned}&amp;2x-3\\=\ &amp;2(\color{red}{4})-3\\=\ &amp;8-3\\=\ &amp;5\end{aligned}\)</span></p>
+</div>
+</div>
+<div id="show-solution-b" class="section level5">
+<h5>Show Solution (b)</h5>
+<p>Evaluate the following, given <span class="math inline">\(x=4\)</span></p>
+<ol style="list-style-type: lower-alpha">
+<li><span class="math inline">\(\quad2x-3\)</span></li>
+<li><span class="math inline">\(\quad\sqrt{6x+12}\)</span></li>
+</ol>
+<div class="solution">
+<p><span class="math inline">\(\begin{aligned}&amp;\sqrt{6x+12}\\=\ &amp;\sqrt{6(\color{red}{4})+12}\\=\ &amp;\sqrt{24+12}\\=\ &amp;\sqrt{36}\\=\ &amp;6\end{aligned}\)</span></p>
+</div>
 </div>
 </div>
 <div id="example-2" class="section level4 tabset tabset-fade tabset-pills">
 <h4>Example 2</h4>
 <div id="question-1" class="section level5">
 <h5>Question</h5>
-<p>Draw the graph of <span class="math inline">\(y=3^{-x}\)</span></p>
+<div class="example">
+<p>Evaluate <span class="math inline">\(\quad a^2-5b+c\quad\)</span> given <span class="math inline">\(a=3\)</span>, <span class="math inline">\(b=-3\)</span>, <span class="math inline">\(c=7\)</span></p>
 </div>
-<div id="show-solution-1" class="section level5">
+</div>
+<div id="show-solution" class="section level5">
 <h5>Show Solution</h5>
-<p>Embed</p>
+<p>Evaluate <span class="math inline">\(\quad a^2-5b+c\quad\)</span> given <span class="math inline">\(a=3\)</span>, <span class="math inline">\(b=-3\)</span>, <span class="math inline">\(c=7\)</span></p>
+<div class="solution">
+<p><span class="math inline">\(\begin{aligned}&amp;a^2-5b+c\\=\ &amp;(\color{red}{3})^2-5(\color{red}{-3})+(\color{red}{7})\\=\ &amp;9+15+7\\=\ &amp;31\end{aligned}\)</span></p>
 </div>
 </div>
 </div>
 </div>
-</div>
-<div id="exponential-models" class="section level1 tabset tabset-fade tabset-pills">
-<h1>Exponential Models <a href="https://claytonpollard.github.io/stage6_standard_presentations/MS-A4.2/b_exponential-models.html" target="blank"><img src="pres.png" /></a></h1>
-<div id="hide-2" class="section level2">
-<h2>Hide</h2>
-</div>
-</div>
-<div id="quadratic-functions" class="section level1 tabset tabset-fade tabset-pills">
-<h1>Quadratic Functions <a href="https://claytonpollard.github.io/stage6_standard_presentations/MS-A4.2/c_quadratic-functions.html" target="blank"><img src="pres.png" /></a></h1>
-<div id="hide-3" class="section level2">
-<h2>Hide</h2>
 </div>
 </div>
 
