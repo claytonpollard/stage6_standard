@@ -6,7 +6,7 @@ output:
     toc_float: true
 ---
 
-# [Syllabus](https://syllabus.nesa.nsw.edu.au/assets/mathematics_standard/mathematics-standard-stage-6-syllabus-2017.pdf) {.tabset .tabset-fade .tabset-pills}
+# Syllabus [![](open.svg){width=16}](https://syllabus.nesa.nsw.edu.au/assets/mathematics_standard/mathematics-standard-stage-6-syllabus-2017.pdf){target="blank"} {.tabset .tabset-fade .tabset-pills}
 
 ## Hide
 
@@ -29,9 +29,11 @@ Students:
   + Fried's formula: Dosage for children 1-2 years $=\frac{\text{age (in months)}\ \times\ \text{adult dosage}}{150}$
   + Young's formula: Dosage for children 1-12 years $=\frac{\text{age of child (in years)}\ \times\ \text{adult dosage}}{\text{age od child (in years)}\ +\ 150}$
   + Clark's formula: Dosage $=\frac{\text{weight in kg}\ \times\ \text{adult dosage}}{70}$
+
+<div align="right"><i><small>As of 2021/01/20</small></i></div>
 :::
 
-# Substitution [![](pres.png)](https://claytonpollard.github.io/stage6_standard_presentations/MS-A1/a_substitution.pdf){target="blank"} {.tabset .tabset-fade .tabset-pills}
+# Substitution [![](pres.svg){width=16}](https://claytonpollard.github.io/stage6_standard_presentations/MS-A1/a_substitution.pdf){target="blank"} {.tabset .tabset-fade .tabset-pills}
 
 ## Hide
 

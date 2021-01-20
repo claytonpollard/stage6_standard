@@ -1,6 +1,6 @@
-.syllabus {
-  border: 1px rgb(179,64,215);
-  border-left: 5px rgb(179,64,215);
+.primary {
+  border: 1px rgb(44,62,80);
+  border-left: 5px rgb(44,62,80);
   border-style: hidden;
   border-left-style: solid;
   border-radius: 6px;
@@ -8,12 +8,25 @@
   padding-top: 8px;
   padding-left: 8px;
   margin: 10px;
-  background: rgba(179,64,215, 0.1);
+  background: rgba(44,62,80, 0.1);
+}
+
+.syllabus {
+  border: 1px rgb(89,49,150);
+  border-left: 5px rgb(89,49,150);
+  border-style: hidden;
+  border-left-style: solid;
+  border-radius: 6px;
+  padding: 4px;
+  padding-top: 8px;
+  padding-left: 8px;
+  margin: 10px;
+  background: rgba(89,49,150, 0.1);
 }
 
 .definition {
-  border: 1px rgb(58,134,255);
-  border-left: 5px rgb(58,134,255);
+  border: 1px rgb(52,152,219);
+  border-left: 5px rgb(52,152,219);
   border-style: hidden;
   border-left-style: solid;
   border-radius: 6px;
@@ -21,25 +34,12 @@
   padding-top: 8px;
   padding-left: 8px;
   margin: 10px;
-  background: rgba(58,134,255, 0.1);
-}
-
-.rule {
-  border: 1px rgb(239, 183, 62);
-  border-left: 5px rgb(239, 183, 62);
-  border-style: hidden;
-  border-left-style: solid;
-  border-radius: 6px;
-  padding: 4px;
-  padding-top: 8px;
-  padding-left: 8px;
-  margin: 10px;
-  background: rgba(239, 183, 62, 0.1);
+  background: rgba(52,152,219, 0.1);
 }
 
 .example {
-  border: 1px rgb(11,191,125);
-  border-left: 5px rgb(11,191,125);
+  border: 1px rgb(24,188,156);
+  border-left: 5px rgb(24,188,156);
   border-style: hidden;
   border-left-style: solid;
   border-radius: 6px;
@@ -47,12 +47,12 @@
   padding-top: 8px;
   padding-left: 8px;
   margin: 10px;
-  background: rgba(11,191,125, 0.1);
+  background: rgba(24,188,156, 0.1);
 }
 
 .solution {
-  border: 1px rgb(11,191,125);
-  border-left: 5px rgb(11,191,125);
+  border: 1px rgb(24,188,156);
+  border-left: 5px rgb(24,188,156);
   border-style: hidden;
   border-left-style: solid;
   border-radius: 6px;
@@ -60,12 +60,12 @@
   padding-top: 8px;
   padding-left: 8px;
   margin: 10px;
-  background: rgba(11,191,125, 0.1);
+  background: rgba(24,188,156, 0.1);
 }
 
 .important {
-  border: 1px rgb(255,0,110);
-  border-left: 5px rgb(255,0,110);
+  border: 1px rgb(231,76,60);
+  border-left: 5px rgb(231,76,60);
   border-style: hidden;
   border-left-style: solid;
   border-radius: 6px;
@@ -73,7 +73,7 @@
   padding-top: 8px;
   padding-left: 8px;
   margin: 10px;
-  background: rgba(255,0,110, 0.1);
+  background: rgba(231,76,60, 0.1);
 }
 
 .extension {
@@ -90,8 +90,8 @@
 }
 
 .note {
-  border: 1px rgb(255,190,11);
-  border-left: 5px rgb(255,190,11);
+  border: 1px rgb(243,156,18);
+  border-left: 5px rgb(243,156,18);
   border-style: hidden;
   border-left-style: solid;
   border-radius: 6px;
@@ -99,13 +99,13 @@
   padding-top: 8px;
   padding-left: 8px;
   margin: 10px;
-  background: rgba(255,190,11, 0.1);
+  background: rgba(243,156,18, 0.1);
 }
 
 .law {
-  border: 1px rgb(58,134,255);
-  border-left: 5px rgb(58,134,255);
-  border-top: 5px rgb(58,134,255);
+  border: 1px rgb(52,152,219);
+  border-left: 5px rgb(52,152,219);
+  border-top: 5px rgb(52,152,219);
   border-style: hidden;
   border-left-style: solid;
   border-top-style: solid;
@@ -114,13 +114,13 @@
   padding-top: 8px;
   padding-left: 8px;
   margin: 10px;
-  background: rgba(255,190,11, 0.1);
+  background: rgba(243,156,18, 0.1);
 }
 
 .theorem {
-  border: 1px rgb(11,191,125);
-  border-left: 5px rgb(11,191,125);
-  border-top: 5px rgb(11,191,125);
+  border: 1px rgb(24,188,156);
+  border-left: 5px rgb(24,188,156);
+  border-top: 5px rgb(24,188,156);
   border-style: hidden;
   border-left-style: solid;
   border-top-style: solid;
@@ -129,13 +129,13 @@
   padding-top: 8px;
   padding-left: 8px;
   margin: 10px;
-  background: rgba(255,190,11, 0.1);
+  background: rgba(243,156,18, 0.1);
 }
 
 .result {
-  border: 1px rgb(255,0,110);
-  border-left: 5px rgb(255,0,110);
-  border-top: 5px rgb(255,0,110);
+  border: 1px rgb(231,76,60);
+  border-left: 5px rgb(231,76,60);
+  border-top: 5px rgb(231,76,60);
   border-style: hidden;
   border-left-style: solid;
   border-top-style: solid;
@@ -144,13 +144,13 @@
   padding-top: 8px;
   padding-left: 8px;
   margin: 10px;
-  background: rgba(255,190,11, 0.1);
+  background: rgba(243,156,18, 0.1);
 }
 
 .proof {
-  border: 1px rgb(255,0,110);
-  border-left: 5px rgb(255,0,110);
-  border-top: 3px rgb(255,0,110);
+  border: 1px rgb(231,76,60);
+  border-left: 5px rgb(231,76,60);
+  border-top: 3px rgb(231,76,60);
   border-style: hidden;
   border-left-style: solid;
   border-top-style: solid;
@@ -159,7 +159,7 @@
   padding-top: 8px;
   padding-left: 8px;
   margin: 10px;
-  background: rgba(255,190,11, 0.1);
+  background: rgba(243,156,18, 0.1);
 }
 
 

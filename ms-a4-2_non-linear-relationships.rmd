@@ -6,7 +6,7 @@ output:
     toc_float: true
 ---
 
-# [Syllabus](https://syllabus.nesa.nsw.edu.au/assets/mathematics_standard/mathematics-standard-stage-6-syllabus-2017.pdf) {.tabset .tabset-fade .tabset-pills}
+# Syllabus [![](open.svg){width=16}](https://syllabus.nesa.nsw.edu.au/assets/mathematics_standard/mathematics-standard-stage-6-syllabus-2017.pdf){target="blank"} {.tabset .tabset-fade .tabset-pills}
 
 ## Hide
 
@@ -29,7 +29,7 @@ Students:
   + use a reciprocal model to solve practical inverse variation problems algebraically and graphically, eg the amount of pizza received when sharing a pizza between increasing numbers of people
 :::
 
-# Exponential Functions [![](pres.png)](https://claytonpollard.github.io/stage6_standard_presentations/MS-A4.2/a_exponential-functions.html){target="blank"} {.tabset .tabset-fade .tabset-pills}
+# Exponential Functions [![](pres.svg){width=16}](https://claytonpollard.github.io/stage6_standard_presentations/MS-A4.2/a_exponential-functions.html){target="blank"} {.tabset .tabset-fade .tabset-pills}
 
 ## Hide
 
@@ -105,10 +105,10 @@ Draw the graph of $y=3^{-x}$
 
 Embed
 
-# Exponential Models [![](pres.png)](https://claytonpollard.github.io/stage6_standard_presentations/MS-A4.2/b_exponential-models.html){target="blank"} {.tabset .tabset-fade .tabset-pills}
+# Exponential Models [![](pres.svg){width=16}](https://claytonpollard.github.io/stage6_standard_presentations/MS-A4.2/b_exponential-models.html){target="blank"} {.tabset .tabset-fade .tabset-pills}
 
 ## Hide
 
-# Quadratic Functions [![](pres.png)](https://claytonpollard.github.io/stage6_standard_presentations/MS-A4.2/c_quadratic-functions.html){target="blank"} {.tabset .tabset-fade .tabset-pills}
+# Quadratic Functions [![](pres.svg){width=16}](https://claytonpollard.github.io/stage6_standard_presentations/MS-A4.2/c_quadratic-functions.html){target="blank"} {.tabset .tabset-fade .tabset-pills}
 
 ## Hide
