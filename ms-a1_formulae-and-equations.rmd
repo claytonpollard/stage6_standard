@@ -45,6 +45,7 @@ Students:
 
 * review substitution of numerical values into linear and non-linear algebraic expressions and equaitons
 
+<div align="right"><i><small>As of 2021/01/20</small></i></div>
 :::
 
 ### Why algebra?
@@ -69,11 +70,13 @@ To avoid making mistakes it is good practice to **always** substitute into brack
 
 :::
 
-### Examples {.tabset .tabset-fade .tabset-pills}
+#### {.tabset .tabset-fade .tabset-pills .unlisted .unnumbered}
 
-#### Example 1 {.tabset .tabset-fade .tabset-pills}
+##### Hide
 
-##### Question
+##### Example 1 {.tabset .tabset-fade .tabset-pills}
+
+###### Question
 
 ::: {.example}
 
@@ -84,7 +87,7 @@ b) $\quad\sqrt{6x+12}$
 
 :::
 
-##### Show Solution (a)
+###### Solution (a)
 
 Evaluate the following, given $x=4$
 
@@ -97,7 +100,7 @@ $\begin{aligned}&2x-3\\=\ &2(\color{red}{4})-3\\=\ &8-3\\=\ &5\end{aligned}$
 
 :::
 
-##### Show Solution (b)
+###### Solution (b)
 
 Evaluate the following, given $x=4$
 
@@ -110,9 +113,9 @@ $\begin{aligned}&\sqrt{6x+12}\\=\ &\sqrt{6(\color{red}{4})+12}\\=\ &\sqrt{24+12}
 
 :::
 
-#### Example 2 {.tabset .tabset-fade .tabset-pills}
+##### Example 2 {.tabset .tabset-fade .tabset-pills}
 
-##### Question
+###### Question
 
 ::: {.example}
 
@@ -120,12 +123,291 @@ Evaluate $\quad a^2-5b+c\quad$ given $a=3$, $b=-3$, $c=7$
 
 :::
 
-##### Show Solution
+###### Solution
 
 Evaluate $\quad a^2-5b+c\quad$ given $a=3$, $b=-3$, $c=7$
 
 ::: {.solution}
 
 $\begin{aligned}&a^2-5b+c\\=\ &(\color{red}{3})^2-5(\color{red}{-3})+(\color{red}{7})\\=\ &9+15+7\\=\ &31\end{aligned}$
+
+:::
+
+## Practice {.tabset .tabset-fade .tabset-pills}
+
+### Questions
+
+If $a=4$, $b=-1$, and $c=-3$, evaluate:
+
+a) $\quad3a$
+b) $\quad2a-3b$
+c) $\quad2ac$
+d) $\quad ac-3c$
+e) $\quad\dfrac{a}{2b}$
+f) $\quad\dfrac{2ac}{b-c}$
+g) $\quad(2c)^2$
+h) $\quad2c^2$
+
+### Answers
+
+a) $\quad12$
+b) $\quad11$
+c) $\quad-24$
+d) $\quad-3$
+e) $\quad-2$
+f) $\quad-12$
+g) $\quad36$
+h) $\quad18$
+
+# Solving Equations [![](pres.svg){width=16}](https://claytonpollard.github.io/stage6_standard_presentations/MS-A1/b_solving-equations.pdf){target="blank"} {.tabset .tabset-fade .tabset-pills}
+
+## Hide
+
+## Show 
+
+::: {.syllabus}
+
+**Syllabus**
+
+* develop and solve linear equations, including those derived from substituting values into a formula, or those developed from a word description
+
+<div align="right"><i><small>As of 2021/01/20</small></i></div>
+:::
+
+### Equations
+
+::: {.definition}
+
+**Definition 1 - Equation**
+
+A statement asserting that two *expressions* are equal.
+
+:::
+
+For example:
+
+$$\underset{\overset{\uparrow}{\text{expression 1}}}{3n-3}\overset{\underset{\downarrow}{\text{is equal to}}}{=}\underset{\overset{\uparrow}{\text{expression 2}}}{n+1}$$
+
+### Solving Equations
+
+::: {.definition}
+
+**Definition 2**
+
+To **solve** an equation means to find the value of the unknown.
+
+:::
+
+In order to solve an equation we need to rearrange the equation to **isolate** the unknown. We do this by unpacking the equation using **inverse operations**. The inverse operations are performed on *both sides* of the equation to **maintain the balance**.
+
+Once you have found a solution, you can check it is correct by **substituting** back into the original equation.
+
+#### {.tabset .tabset-fade .tabset-pills}
+
+##### Hide
+
+##### Example 1 {.tabset .tabset-fade .tabset-pills}
+
+###### Question
+
+::: {.example}
+
+Solve for $x$:
+
+a) $\quad2x-3=5$
+b) $\quad8=4x=-2$
+c) $\quad\dfrac{x}{4}+7=5$
+d) $\quad\dfrac{1}{3}(x+2)=6$
+
+:::
+
+###### Solution (a)
+
+Solve for $x$:
+
+a) $\quad2x-3=5$
+b) $\quad8=4x=-2$
+c) $\quad\dfrac{x}{4}+7=5$
+d) $\quad\dfrac{1}{3}(x+2)=6$
+
+::: {.solution}
+
+$\begin{aligned}2x-3&=5\\2x-3\color{red}{+3}&=5\color{red}{+3}\\2x&=8\\2x\color{red}{\div2}&=8\color{red}{\div2}\\x&=4\end{aligned}$
+
+:::
+
+###### Solution (b)
+
+Solve for $x$:
+
+a) $\quad2x-3=5$
+b) $\quad8=4x=-2$
+c) $\quad\dfrac{x}{4}+7=5$
+d) $\quad\dfrac{1}{3}(x+2)=6$
+
+::: {.solution}
+
+$\begin{aligned}8-4x&=-2\\8-4x\color{red}{+4x+2}&=-2\color{red}{+4x+2}\\10&=4x\\10\color{red}{\div4}&=4x\color{red}{\div4}\\\frac{10}{4}&=x\\x&=\frac{10}{4}\\x&=\frac{5}{2}=2.5\end{aligned}$
+
+:::
+
+::: {.note}
+
+It is best practice to have the unknown on the left hand side (LHS) in your answer.
+
+:::
+
+###### Solution (c)
+
+Solve for $x$:
+
+a) $\quad2x-3=5$
+b) $\quad8=4x=-2$
+c) $\quad\dfrac{x}{4}+7=5$
+d) $\quad\dfrac{1}{3}(x+2)=6$
+
+::: {.solution}
+
+$\begin{aligned}\frac{x}{4}+7&=5\\\frac{x}{4}+7\color{red}{-7}&=5\color{red}{-7}\\\frac{x}{4}&=-2\\\frac{x}{4}\color{red}{\times4}&=-2\color{red}{\times4}\\x&=-8\end{aligned}$
+
+:::
+
+###### Solution (d)
+
+Solve for $x$:
+
+a) $\quad2x-3=5$
+b) $\quad8=4x=-2$
+c) $\quad\dfrac{x}{4}+7=5$
+d) $\quad\dfrac{1}{3}(x+2)=6$
+
+::: {.solution}
+
+$\begin{aligned}\frac{1}{3}(x+2)&=6\\\frac{1}{3}(x+2)\color{red}{\times3}&=6\color{red}{\times3}\\x+2&=18\\x+2\color{red}{-2}&=18\color{red}{-2}\\x&=16\end{aligned}$
+
+:::
+
+### Repeated Unknowns
+
+If the unknown appears in the equation more than once, we follow these steps:
+1. Expand brackets and collect like terms.
+2. If the unknown appears on both sides of the equation, remove it from one side using inverse operations.
+3. Isolate the unknown and solve the equation.
+
+#### {.tabset .tabset-fade .tabset-pills}
+
+##### Hide
+
+##### Example 2 {.tabset .tabset-fade .tabset-pills}
+
+###### Question
+
+::: {.example}
+
+Solve $\quad4(2x+5)-3(x-2)=16\quad$ for $x$.
+
+:::
+
+###### Solution
+
+Solve $\quad4(2x+5)-3(x-2)=16\quad$ for $x$.
+
+::: {.solution}
+
+$\begin{aligned}4(2x+5)-3(x-2)&=16\\8x+20-3x+6&=16\\5x+26&=16\\5x+26\color{red}{-26}&=16\color{red}{-26}\\5x&=-10\\5x\color{red}{\div5}&=-10\color{red}{\div5}\\x&=-2\end{aligned}$
+
+:::
+
+##### Example 3 {.tabset .tabset-fade .tabset-pills}
+
+###### Question
+
+::: {.example}
+
+Solve for $x$:
+
+a) $\quad4x-3=3x+7$
+b) $\quad5-3(-1+x)=x$
+
+:::
+
+###### Solution (a)
+
+Solve for $x$:
+
+a) $\quad4x-3=3x+7$
+b) $\quad5-3(-1+x)=x$
+
+::: {.solution}
+
+$\begin{aligned}4x-3&=3x+7\\4x\color{red}{-3x}-3\color{red}{+3}&=3x\color{red}{-3x}+7\color{red}{+3}\\x&=10\end{aligned}$
+
+:::
+
+###### Solution (b)
+
+Solve for $x$:
+
+a) $\quad4x-3=3x+7$
+b) $\quad5-3(-1+x)=x$
+
+::: {.solution}
+
+$\begin{aligned}5-3(-1+x)&=x\\5+3-3x&=x\\8-3x\color{red}{+3x}&=x\color{red}{+3x}\\8&=4x\\8\color{red}{\div4}&=4x\color{red}{\div4}\\2&=x\\x&=2\end{aligned}$
+
+:::
+
+### Fractions
+
+For equations involving fractions, first write all fractions with a **common denominator**.
+  
+For example:
+
+* In $\dfrac{2x}{3}=\dfrac{x}{4}$ the lowest common denominator is $\ \ 12$.
+* In $\dfrac{3}{x}=\dfrac{5}{2x-1}$ the lowest common denominator is $\ \ x(2x-1)$.
+
+Once the fractions have common denominators you can **equate the numerators**
+
+#### {.tabset .tabset-fade .tabset-pills}
+
+##### Hide
+
+##### Example 4 {.tabset .tabset-fade .tabset-pills}
+
+###### Question
+
+::: {.example}
+
+Solve $\quad\dfrac{2-x}{3}=\dfrac{x}{5}\quad$ for $x$.
+
+:::
+
+###### Solution
+
+Solve $\quad\dfrac{2-x}{3}=\dfrac{x}{5}\quad$ for $x$.
+
+::: {.solution}
+
+$\begin{aligned}\frac{2-x}{3}&=\frac{x}{5}\\\frac{2-x}{3}\color{red}{\times\frac{5}{5}}&=\frac{x}{5}\color{red}{\times\frac{3}{3}}\\\frac{5(2-x)}{15}&=\frac{3x}{15}\\5(2-x)&=3x&\text{(equating the numerators)}\\10-5x&=3x\\10-5x\color{red}{+5x}&=3x\color{red}{+5x}\\10&=8x\\10\color{red}{\div8}&=8x\color{red}{\div8}\\\frac{10}{8}&=x\\x&=\frac{10}{8}\\x&=\frac{5}{4}=1.25\end{aligned}$
+
+:::
+
+##### Example 5 {.tabset .tabset-fade .tabset-pills}
+
+###### Question
+
+::: {.example}
+
+Solve $\quad\dfrac{7}{x+1}=\dfrac{3}{x}\quad$ for $x$.
+
+:::
+
+###### Solution
+
+Solve $\quad\dfrac{7}{x+1}=\dfrac{3}{x}\quad$ for $x$.
+
+::: {.solution}
+
+$\begin{aligned}\frac{7}{x+1}&=\frac{3}{x}\\\frac{7}{x+1}\color{red}{\times\frac{x}{x}}&=\frac{3}{x}\color{red}{\times\frac{x+1}{x+1}}\\\frac{7x}{x(x+1)}&=\frac{3(x+1)}{x(x+1)}\\7x&=3(x+1)&\text{(equating the numerators)}\\7x&=3x+3\\7x\color{red}{-3x}&=3x\color{red}{-3x}+3\\4x&=3\\4x\color{red}{\div4}&=3\color{red}{\div4}\\x&=\frac{3}{4}=0.75\\\end{aligned}$
 
 :::
