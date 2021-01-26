@@ -25,7 +25,7 @@ Students:
   + describe the limitations of methods estimating BAC
 * calculate required medication dosages for children and adults from packets, given age or weight, using Fried’s, Young’s or Clark’s formula as appropriate
   + Fried's formula: Dosage for children 1-2 years $=\frac{\text{age (in months)}\ \times\ \text{adult dosage}}{150}$
-  + Young's formula: Dosage for children 1-12 years $=\frac{\text{age of child (in years)}\ \times\ \text{adult dosage}}{\text{age od child (in years)}\ +\ 150}$
+  + Young's formula: Dosage for children 1-12 years $=\frac{\text{age of child (in years)}\ \times\ \text{adult dosage}}{\text{age of child (in years)}\ +\ 150}$
   + Clark's formula: Dosage $=\frac{\text{weight in kg}\ \times\ \text{adult dosage}}{70}$
 
 <div align="right"><i><small>As of 2021/01/20</small></i></div>
@@ -584,6 +584,511 @@ b) Hence find the radius to 3 significant figures when the surface area is:
 ::: {.solution}
 
 $\begin{aligned}\text{i) }\ \ r&=\sqrt{\frac{A}{4\pi}}&\text{ii) }\ \ r&=\sqrt{\frac{A}{4\pi}}&\text{iii) }\ \ r&=\sqrt{\frac{A}{4\pi}}\\\\r&=\sqrt{\frac{\color{red}{10}}{4\pi}}&r&=\sqrt{\frac{\color{red}{20}}{4\pi}}&r&=\sqrt{\frac{\color{red}{30}}{4\pi}}\\\\r&=0.892\text{ cm}&r&=1.26\text{ cm}&r&=1.55\text{ cm}\end{aligned}$
+
+:::
+
+##### Hide
+
+## Hide
+
+# Speed, Distance and Time [![](pres.svg){width=16}](https://claytonpollard.github.io/stage6_standard_presentations/MS-A1/e_speed-distance-time.pdf){target="blank"} {.tabset .tabset-fade .tabset-pills}
+
+## Show 
+
+::: {.syllabus}
+
+**Syllabus**
+
+* review substitution of numerical values into linear and non-linear algebraic expressions and equations
+  + solve problems involving formulae, including calculating distance, speed and time (with change of units of measurement as required) or calculating stopping distances of vehicles using a suitable formula
+
+<div align="right"><i><small>As of 2021/01/20</small></i></div>
+:::
+
+### Speed
+
+::: {.definition}
+
+**Definition**
+
+**Speed** is a comparison between *distance travelled* and *time taken*
+
+:::
+
+In most real world situations, an objects speed is not constant. Therefore we often use the **average speed**.
+
+::: {.formula}
+
+$$s=\frac{d}{t}$$
+
+Where:
+
+* $s$ - average speed
+* $d$ - distance travelled
+* $t$ - time taken
+
+::: {.important}
+
+The formula is **not** on the reference sheet.
+
+:::
+
+:::
+
+#### {.tabset .tabset-fade .tabset-pills .unlisted .unnumbered}
+
+##### Example 1 {.tabset .tabset-fade .tabset-pills}
+
+###### Question
+
+::: {.example}
+
+Find the average speed of a car which travels 110 km in 2 hours.
+
+:::
+
+###### Solution
+
+Find the average speed of a car which travels 110 km in 2 hours
+
+::: {.solution}
+
+$\begin{aligned}s&=\frac{d}{t}\\&=\frac{110\text{ km}}{2\text{ h}}\\&= 55\text{ km/h}\end{aligned}$
+
+:::
+
+##### Hide
+
+### Rearranging
+
+The formula for speed can be rewritten to make *distance* or *time* the subject.
+
+$$s=\frac{d}{t}$$
+
+$$d=st$$
+
+$$t=\frac{d}{s}$$
+
+#### {.tabset .tabset-fade .tabset-pills .unlisted .unnumbered}
+
+##### Example 2 {.tabset .tabset-fade .tabset-pills}
+
+###### Question
+
+::: {.example}
+
+Jonah rides his motorcycle on a highway at an average speed of 90 km/h.
+
+a) How far can Jonah travel in $1\frac{1}{2}$ hours?
+b) How long will he take to travel 210 km? Answer in hours and minutes.
+
+:::
+
+###### Solution (a)
+
+Jonah rides his motorcycle on a highway at an average speed of 90 km/h.
+
+a) How far can Jonah travel in $1\frac{1}{2}$ hours?
+b) How long will he take to travel 210 km? Answer in hours and minutes.
+
+::: {.solution}
+
+<div class="row">
+  <div class="column">
+  $\begin{aligned}d&=st\\d&=(90)\underset{\color{red}{(*)}}{\left(\color{red}{1\frac{1}{2}}\right)}\\d&=135\text{ km}\end{aligned}$
+  </div>
+  <div class="column">
+  $(*)=$ <span style="font-family: casio">qa1$1R2</span>
+  </div>
+</div>
+
+:::
+
+###### Solution (b)
+
+Jonah rides his motorcycle on a highway at an average speed of 90 km/h.
+
+a) How far can Jonah travel in $1\frac{1}{2}$ hours?
+b) How long will he take to travel 210 km? Answer in hours and minutes.
+
+::: {.solution}
+
+<div class="row">
+  <div class="column">
+  $\begin{aligned}t&=\frac{d}{s}\\t&=\frac{210}{90}\\t&=2.33...\text{ h}\\&\quad\color{red}{(*)}\\t&=2^\circ 20' 0''\end{aligned}$
+
+  2 hours and 20 minutes
+  </div>
+  <div class="column">
+  $(*)=$ <span style="font-family: casio">x</span>
+  </div>
+</div>
+
+:::
+
+##### Hide
+
+### Stopping distance
+
+::: {.definition}
+
+**Definition - Stopping distance**
+
+The distance a vehicle will travel in order to come to a complete stop.
+
+:::
+
+<center>stopping distance = reaction distance + braking distance</center>
+
+::: {.important}
+
+**Important Note**
+
+You **are not** expected to memorise any formulae.
+    
+You **are** expected to be able to substitute into a given formula.
+
+:::
+
+#### {.tabset .tabset-fade .tabset-pills .unlisted .unnumbered}
+
+##### Example 3 {.tabset .tabset-fade .tabset-pills}
+
+###### Question
+
+::: {.example}
+
+Claire is driving on a motorway at a speed of 110 kilometres per hour and has to brake suddenly. She has a reaction time of 2 seconds and a braking distance of 59.2 metres.
+
+What is Claire's stopping distance?
+
+:::
+
+###### Solution
+
+Claire is driving on a motorway at a speed of 110 kilometres per hour and has to brake suddenly. She has a reaction time of 2 seconds and a braking distance of 59.2 metres.
+
+What is Claire's stopping distance?
+
+::: {.solution}
+
+$\begin{aligned}110\text{ km/h}&=110000\text{ m/hr}\\&=\frac{110000}{60\times60}\text{ m/s}\\&=30.555...\text{ m/s}\end{aligned}$
+
+Let $d$ be Claire's stopping distance.
+
+$\begin{aligned}d&=\underbrace{\text{reaction time distance}}_{d=st}+\text{braking distance}\\&=st+\text{braking distance}\\&=(30.555...)(2)+(59.2)\\&=120.311...\\d&=120.3 \text{ m (1 d.p.)}\end{aligned}$
+
+Claire's stopping distance is 120.3 metres.
+
+:::
+
+##### Example 4 {.tabset .tabset-fade .tabset-pills}
+
+###### Question
+
+::: {.example}
+
+Max was driving 60 km/h and has a reaction time of 0.8 s. Calculate the stopping distance correct to the nearest metre given the formula $\quad d=\dfrac{5vt}{18}+\dfrac{v^2}{170}\quad$ where $d$ is the stopping distance (m), $v$ is the speed (m/s) and $t$ is reaction time (s).
+
+:::
+
+###### Solution
+
+Max was driving 60 km/h and has a reaction time of 0.8 s. Calculate the stopping distance correct to the nearest metre given the formula $\quad d=\dfrac{5vt}{18}+\dfrac{v^2}{170}\quad$ where $d$ is the stopping distance (m), $v$ is the speed (m/s) and $t$ is reaction time (s).
+
+::: {.solution}
+
+\begin{aligned}d&=\frac{5vt}{18}+\frac{v^2}{170}\\d&=\frac{5(60)(0.8)}{18}+\frac{60^2}{170}\\d&=34.509...\\d&\approx35\text{ m}\end{aligned}
+
+Max's stopping distance is 35 metres.
+
+:::
+
+##### Hide
+
+## Hide
+
+# Blood Alcohol Content [![](pres.svg){width=16}](https://claytonpollard.github.io/stage6_standard_presentations/MS-A1/f_blood-alcohol-content.pdf){target="blank"} {.tabset .tabset-fade .tabset-pills}
+
+## Show 
+
+::: {.syllabus}
+
+**Syllabus**
+
+* calculate and interpret blood alcohol content (BAC) based on drink consumption and body weight
+  + use formulae, both in word form and algebraic form, to calculate an estimate for blood alcohol content $(BAC)$, including $BAC_{Male}=\frac{10N-7.5H}{6.8M}$ and $BAC_{Female}=\frac{10N-7.5H}{5.5M}$ where $N$ is the number of standard drinks consumed, $H$ is the number of hours of drinking, and $M$ is the person's weight in kilograms.
+  + determine the number of hours required for a person to stop consuming alcohol in order to reach zero BAC, eg using the formula $time=\frac{BAC}{0.015}$
+  + describe the limitations of methods estimating BAC
+
+<div align="right"><i><small>As of 2021/01/20</small></i></div>
+:::
+
+### Blood Alcohol Content
+
+::: {.definition}
+
+**Definition**
+
+Blood alcohol content (BAC) is a measure of the amount of alcohol in your blood.
+
+:::
+
+BAC tells you the number of grams of alcohol per 100 mL of blood
+
+For example, a BAC of 0.10 means there is 0.10 g of alcohol for every 100 mL of blood, or 1 g for every 1 L of blood.
+
+### Estimating BAC
+
+BAC can be estimated using the following formulae:
+
+::: {.formula}
+
+$$BAC_{\text{Male}}=\frac{10N-7.5H}{6.8M}\quad\text{or}\quad BAC_{\text{Female}}=\frac{10N-7.5H}{5.5M}$$
+
+Where:
+* $BAC$ - Blood alcohol content
+* $N$ - Number of standard drinks consumed
+* $H$ - Hours drinking
+* $M$ - Mass in kilograms
+
+::: {.important}
+
+These formulae are **not** on the reference sheet.
+        
+You are **not** expected to remember these formulae.
+
+:::
+
+:::
+
+### Limitations
+
+These formulae are only good for calculating *estimates* of a person BAC.
+
+The formulae for estimating BAC only takes into account the number of standard drinks consumed, sex, the amount of time, and mass.
+
+There are other factors that influence BAC including:
+
+* Fitness
+* Health
+* Liver function
+* Food in the stomach
+* Medications
+
+#### {.tabset .tabset-fade .tabset-pills .unlisted .unnumbered}
+
+##### Example 1 {.tabset .tabset-fade .tabset-pills}
+
+###### Question
+
+::: {.example}
+
+Osman is 87 kg and has consumed 3 standard drinks in the past hour. Estimate Osman's BAC to 3 decimak places using the following formula where $N$ represents the number of standard drinks, $H$ is the number of hours drinking and $M$ is his mass in kilograms.
+
+$$BAC_{\text{Male}}=\frac{10N-7.5H}{6.8M}$$
+
+:::
+
+###### Solution
+
+Osman is 87 kg and has consumed 3 standard drinks in the past hour. Estimate Osman's BAC to 3 decimak places using the following formula where $N$ represents the number of standard drinks, $H$ is the number of hours drinking and $M$ is his mass in kilograms.
+
+$$BAC_{\text{Male}}=\frac{10N-7.5H}{6.8M}$$
+
+::: {.solution}
+
+$\begin{aligned}BAC_{\text{Male}}&=\frac{10N-7.5H}{6.8M}\\&=\frac{10(3)-7.5(1)}{6.8(87)}\\&=0.038032...\\&\approx0.038\end{aligned}$
+
+:::
+
+##### Hide
+
+### Reaching zero BAC
+
+The number of hours required for a person to reach zero BAC after they stop consuming alcohol is given by the following formula:
+    
+::: {.formula}
+
+$$\text{Time (h)}=\frac{BAC}{0.015}$$
+
+::: {.important}
+
+This formula is **not** on the reference sheet.
+        
+You are **not** expected to remember this formula.
+:::
+
+:::
+
+#### {.tabset .tabset-fade .tabset-pills .unlisted .unnumbered}
+
+##### Example 2 {.tabset .tabset-fade .tabset-pills}
+
+###### Question
+
+::: {.example}
+
+Fiona has a BAC of 0.027. Use the following formula to estimate the time she will need for her BAC to reach zero. Answer to the nearest minute.
+
+$$\text{Time}=\frac{BAC}{0.015}$$
+
+:::
+
+###### Solution
+
+Fiona has a BAC of 0.027. Use the following formula to estimate the time she will need for her BAC to reach zero. Answer to the nearest minute.
+
+$$\text{Time}=\frac{BAC}{0.015}$$
+
+::: {.solution}
+
+<div class="row">
+  <div class="column">
+  $\begin{aligned}\text{Time}&=\frac{BAC}{0.015}\\&=\frac{(0.027)}{0.015}\\&=1.8\\&\quad(*)\\&=1^\circ48'0''\end{aligned}$
+
+  Fiona needs to wait 1 hour and 48 minutes.
+  </div>
+  <div class="column">
+  $(*)=$ <span style="font-family: casio">x</span>
+  </div>
+</div>
+
+:::
+
+##### Hide
+
+## Hide
+
+# Medication [![](pres.svg){width=16}](https://claytonpollard.github.io/stage6_standard_presentations/MS-A1/g_medication.pdf){target="blank"} {.tabset .tabset-fade .tabset-pills}
+
+## Show 
+
+::: {.syllabus}
+
+**Syllabus**
+
+* calculate required medication dosages for children and adults from packets, given age or weight, using Fried’s, Young’s or Clark’s formula as appropriate
+  + Fried's formula: Dosage for children 1-2 years $=\frac{\text{age (in months)}\ \times\ \text{adult dosage}}{150}$
+  + Young's formula: Dosage for children 1-12 years $=\frac{\text{age of child (in years)}\ \times\ \text{adult dosage}}{\text{age of child (in years)}\ +\ 150}$
+  + Clark's formula: Dosage $=\frac{\text{weight in kg}\ \times\ \text{adult dosage}}{70}$
+
+<div align="right"><i><small>As of 2021/01/20</small></i></div>
+:::
+
+### Converting concentrations
+
+A concentration is a rate comparing a mass (g, mg, etc.) with a volume (L, mL, etc.). We need to consider both when converting a concentration from one unit to another.
+
+#### {.tabset .tabset-fade .tabset-pills .unlisted .unnumbered}
+
+##### Example 1 {.tabset .tabset-fade .tabset-pills}
+
+###### Question
+
+::: {.example}
+
+The concentration of a mild analgesic is given as 80 mg per 50 mL. What is in g/mL?
+
+:::
+
+###### Solution
+
+The concentration of a mild analgesic is given as 80 mg per 50 mL. What is in g/mL?
+
+::: {.solution}
+
+$\begin{aligned}80\text{ mg}/50\text{ mL}&=\frac{80\text{ mg}}{50\text{ mL}}\\&=1.6\text{ mg/mL}\\&=1.6\div1000\text{ g/mL}\\&=0.0016\text{ g/mL}\end{aligned}$
+
+:::
+
+##### Hide
+
+### Calculating dosages
+
+Often when calculating dosages you will be prescribed an amount in milligrams (mg) and need to calculate how much of a liquid that need to be taken. In these cases you can use the following:
+
+::: {.formula}
+
+$$\text{volume required}=\frac{\text{strength required}}{\text{strength of stock}}\times\text{volume of stock}$$
+    
+Where your *stock* is the medication you're given.
+  
+::: {.important}
+
+This formula is **not** on the reference sheet.
+    
+:::
+
+:::
+
+#### {.tabset .tabset-fade .tabset-pills .unlisted .unnumbered}
+
+##### Example 2 {.tabset .tabset-fade .tabset-pills}
+
+###### Question
+
+::: {.example}
+
+A patient is prescribed 1000 mg of a mild painkiller. The medication available contains 100 mg in 5 mL. How much medication should be given to the patient?
+
+:::
+
+###### Solution
+
+A patient is prescribed 1000 mg of a mild painkiller. The medication available contains 100 mg in 5 mL. How much medication should be given to the patient?
+
+::: {.solution}
+
+$\begin{aligned}\text{volume required}&=\frac{\text{strength required}}{\text{strength of stock}}\times\text{volume of stock}\\&=\frac{(1000\text{ mg})}{(100\text{ mg})}\times(5\text{ mL})\\&=50\text{ mL}\end{aligned}$
+
+:::
+
+##### Hide
+
+### Children and infants
+
+There are three formulae used for children and infants:
+
+::: {.formula}
+
+* Fried's formula: Dosage for children 1-2 years $=\dfrac{\text{age (months)}\ \times\ \text{adult dosage}}{150}$
+* Young's formula: Dosage for children 1-12 years $=\dfrac{\text{age of child (years)}\ \times\ \text{adult dosage}}{\text{age of child (years)}\ +\ 150}$
+* Clark's formula: Dosage $=\dfrac{\text{weight (kg)}\ \times\ \text{adult dosage}}{70}$
+
+::: {.important}
+
+These formulae are **not** on the reference sheet.
+    
+You are **not** expected to remember these formulae.
+
+:::
+    
+:::
+
+#### {.tabset .tabset-fade .tabset-pills .unlisted .unnumbered}
+
+##### Example 3 {.tabset .tabset-fade .tabset-pills}
+
+###### Question
+
+::: {.example}
+
+Jessica is 6 months old. Use Fried's formula to find the required infant dose if the adult dost is 20 mL.
+    
+$$\text{Dosage}=\dfrac{\text{age (months)}\ \times\ \text{adult dosage}}{150}$$
+
+:::
+
+###### Solution
+
+Jessica is 6 months old. Use Fried's formula to find the required infant dose if the adult dost is 20 mL.
+    
+$$\text{Dosage}=\dfrac{\text{age (months)}\ \times\ \text{adult dosage}}{150}$$
+
+::: {.solution}
+
+$\begin{aligned}\text{Dosage}&=\frac{\text{age (months)}\ \times\ \text{adult dosage}}{150}\\&=\frac{(6)\times(20)}{(150)}\\&=\frac{120}{150}\\&=0.8\text{ mL}\end{aligned}$
 
 :::
 
