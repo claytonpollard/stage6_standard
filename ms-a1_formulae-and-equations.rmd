@@ -847,6 +847,7 @@ BAC can be estimated using the following formulae:
 $$BAC_{\text{Male}}=\frac{10N-7.5H}{6.8M}\quad\text{or}\quad BAC_{\text{Female}}=\frac{10N-7.5H}{5.5M}$$
 
 Where:
+
 * $BAC$ - Blood alcohol content
 * $N$ - Number of standard drinks consumed
 * $H$ - Hours drinking
